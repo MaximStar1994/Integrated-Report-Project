@@ -1,0 +1,69 @@
+
+.scrollItem{
+  height: 25vh;
+}
+.ScrollingApp {
+  text-align: center;
+  height:25vh;
+}
+.ScrollingApp-textbox{
+  justify-content: left;
+}
+.ScrollingApp-intro-sm {
+  font-size: small;
+  text-align: left;
+  color:#0b8dbe;
+  /* margin-left:5px; */
+}
+
+.ScrollingApp-intro {
+  font-size: small;
+  text-align: left;
+  color:#030303;
+  margin-left:25px
+}
+
+.menu-item {
+
+  height: 20vh;
+  width: 15vw;
+
+  text-align: center;
+  user-select: none;
+  cursor: pointer;
+  border: 1px transparent solid;
+  background-color: black;
+}
+.menu-item-wrapper {
+  border: 1px transparent solid;
+  background-color: black;
+  /* margin:5px; */
+  border: 1px #20c997 solid;
+}
+.menu-item-wrapper.active {
+  border: 1px #ffc107 solid;
+}
+/* .menu-item.active {
+  border: 1px green solid;
+} */
+
+.scroll-menu-arrow {
+  padding: 20px;
+  cursor: pointer;
+}
+
+.scroll-menu-arrow--disabled {
+  visibility: hidden;
+}
+
+.fs1{
+  margin: auto;
+   font-size:small;
+   color:#fff;
+   margin-left: 5px;
+   font-weight: 100;
+}
+
+.fs{
+  color:#fff
+}

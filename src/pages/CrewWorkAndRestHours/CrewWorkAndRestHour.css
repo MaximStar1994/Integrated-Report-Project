@@ -1,0 +1,83 @@
+.CrewWorkAndRestHour{
+    background-color: #e6e6e6;
+    min-height: 100vh;
+}
+.CrewWorkAndRestHourMain{
+    background-color: #eeeff5;
+    color: #04588e;
+    margin-top: 20px;
+    padding: 10px
+}
+
+.crewWorkAndRestHourHeaderBase {
+    /* margin-top: 25px; */
+    /* margin-bottom: 25px;  */
+    color: #04588e; 
+    padding-bottom: 15px;
+}
+.crewWorkAndRestHourHeaderBackground{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+.crewWorkAndRestHourHeading {
+    color: rgb(4, 88, 142);
+    font-size: 1.2rem;
+    font-weight: 900;
+    text-align: center;
+    display: flex;
+    align-self: center;
+    margin: 0px;
+    padding: 0px;
+    line-height: normal;
+}
+
+@media (min-width : 768px) {
+    .crewWorkAndRestHourHeaderBase {
+        position: relative;
+    }
+    .crewWorkAndRestHourHeaderBackground{
+        position: absolute;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width : 1024px) {
+    .crewWorkAndRestHourHeading {
+        font-size: 1.2rem;
+        width: 50%;
+    }
+}
+
+.CrewWorkAndRestHourSelectionFillableBox {
+    border: 1px solid #ced4da;
+    color: #04588e; 
+    font-weight: 10;
+}
+
+.CrewWorkAndRestHourSelectionBox .MuiInput-root{
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    line-height: 1.5;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+
+}
+.CrewWorkAndRestHourSelectionBox > .MuiInput-root > .MuiInput-underline:before .MuiInput-underline:after{
+    border-bottom: 0px!important;
+}
+
+.CrewWorkAndRestHourSelectionBox > .MuiInput-root > .MuiSelect-select:focus{
+    background-color: rgba(0,0,0,0);
+}
+
+.CrewWorkAndRestHourSelectionBox > .MuiInput-root > .MuiSelect-icon {
+    color: #fcf404;
+    background-color: #04588e;
+    border-radius: 3px;
+    margin-right: 5px;
+}

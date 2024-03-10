@@ -1,0 +1,20 @@
+
+.InputBox {
+    border: 1px solid #055b7c!important;
+    color: #00bbff!important;
+    background-color: rgba(0,0,0,0)!important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* margin-bottom: 5px; */
+}
+.InputBox:disabled{
+    background-color: #04384C!important;
+    
+}
+
+.MMFormNavLinks>a:hover{
+    color: #067FAA;
+}
+
+.MMFormNavLinks{
+    font-size: 0.7rem;
+}

@@ -1,0 +1,44 @@
+.myDownload {
+    color : white
+}
+.myDownload:hover {
+    color : white;
+    text-decoration: none;
+}
+.myDownload:focus{
+    color : white;
+}
+
+.myDownloadBtn:hover {
+    background-color: gray;
+}
+
+.healthSummaryTable{
+    border : 1px solid white;
+    background-color:#252525;
+}
+
+.AssetHealthListModal .close {
+    text-shadow: none;
+}
+.AssetHealthListModal .modal-content {
+    background-color: unset;
+    color : white;
+}
+
+.AssetHealthListModal .recharts-tooltip-label {
+    color : #6c757d;
+}
+
+.selectable:hover {
+    background-color: #025170;
+}
+
+.tableHeaderCol {
+    background-color : black;
+}
+
+.tableCol {
+    display: flex;
+    align-items : center;
+}

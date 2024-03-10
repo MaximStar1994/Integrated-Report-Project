@@ -1,0 +1,33 @@
+.powerGaugeLabel {
+    font-size : 1rem;
+    color : white;
+    font-weight : bold;
+    text-align: center;
+}
+.powerGaugeMarkings{
+    font-size: 0.3rem;
+}
+.powerGaugeValue{
+    font-weight: normal;
+    font-size: 2rem;
+}
+.powerGaugeUnit {
+    font-weight: normal;
+    font-size: 1rem;
+    color : rgb(11, 141, 190);
+}
+
+@media (max-width: 1200px) { 
+    .powerGaugeLabel {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 768px) { 
+    .powerGaugeValue{
+        font-size : 1rem;
+    }
+    .powerGaugeUnit{
+        font-size : 0.5rem;
+    }
+}

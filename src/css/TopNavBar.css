@@ -1,0 +1,9 @@
+.TopNavBar{
+    background-color : #04384c;
+    color : rgb(201,201,201)
+}
+@media (min-width: 1400px) { 
+    .top-icon {
+      padding : 10px 20px;
+    }
+  }

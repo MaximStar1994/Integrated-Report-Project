@@ -1,0 +1,185 @@
+.ChatMsgBox{
+    background-color: #e6e6e6;
+    margin-bottom: 5px;
+    min-width: 10rem;
+    display: inline-flex;
+    flex-direction: column;
+    align-content: center;
+    border: 1px solid #9b9595;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+.ChatMsgSenderBox{
+    background-color: #89f186;
+    margin-bottom: 5px;
+    min-width: 10rem;
+    display: inline-flex;
+    flex-direction: column;
+    align-content: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+.chatMsgSender{
+    font-size: smaller;
+    text-decoration: underline;
+    color: #9b9595;
+}
+.chatMsgSenderSender{
+    font-size: smaller;
+    text-decoration: underline;
+    color: black;
+}
+.chatMsg{
+    margin-top: 5px;
+    text-align: end;
+}
+.chatMsgTimestamp{
+    font-size: small;
+    text-align: end;
+    color: #9b9595;
+}
+.chatMsgSenderTimestamp{
+    font-size: small;
+    text-align: end;
+    color: black;
+}
+.ChatInputBox{
+    display: flex;
+}
+.ChatInput{
+    display: flex;
+    flex-grow: 1;
+}
+.ChatInputButton{
+    display: flex;
+    align-items: center;
+}
+.ChatInputButton:hover{
+    cursor: pointer;
+}
+
+.ChatFillableBox {
+    border: 1px solid #82807f;
+    color: #04588e; 
+    font-weight: 10;
+}
+
+@media (max-width:1195px){
+    .bigChatDisplay{
+        display: none!important;
+    }
+    .smallChatDisplay{
+        display: block!important;
+    }
+}
+@media (min-width:1196px){
+    .bigChatDisplay{
+        display: block!important;
+    }
+    .smallChatDisplay{
+        display: none!important;
+    }
+}
+
+
+.ChatManager{
+    background-color: #e6e6e6;
+    min-height: 100vh;
+}
+.ChatManagerMain{
+    background-color: #eeeff5;
+    color: #04588e;
+    margin: 40px 5px;
+    padding: 10px;
+    border: 5px solid #04588e;
+    border-radius: 10px;
+}
+
+.ChatManagerHeaderBase {
+    color: #04588e; 
+    padding-bottom: 15px;
+}
+.ChatManagerHeaderBackground{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+.ChatManagerHeading {
+    color: rgb(4, 88, 142);
+    font-size: 1.2rem;
+    font-weight: 900;
+    text-align: center;
+    display: flex;
+    align-self: center;
+    margin: 0px;
+    padding: 0px;
+    line-height: normal;
+}
+
+.chatscroll::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 7px;
+}
+
+.chatscroll::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0,0,0,.5);
+    -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+}
+
+@media (min-width : 768px) {
+    .ChatManagerHeaderBase {
+        position: relative;
+    }
+    .ChatManagerHeaderBackground{
+        position: absolute;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width : 1024px) {
+    .ChatManagerHeading {
+        font-size: 1.2rem;
+        width: 50%;
+    }
+}
+
+.ChatManagerSelectionFillableBox {
+    border: 1px solid #ced4da;
+    color: #04588e; 
+    font-weight: 10;
+}
+
+.ChatManagerSelectionBox .MuiInput-root{
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    line-height: 1.5;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+
+}
+.ChatManagerSelectionBox > .MuiInput-root > .MuiInput-underline:before .MuiInput-underline:after{
+    border-bottom: 0px!important;
+}
+
+.ChatManagerSelectionBox > .MuiInput-root > .MuiSelect-select:focus{
+    background-color: rgba(0,0,0,0);
+}
+
+.ChatManagerSelectionBox > .MuiInput-root > .MuiSelect-icon {
+    color: #fcf404;
+    background-color: #04588e;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+.ChatManagerFillableBox {
+    border: 1px solid #ced4da;
+    color: #04588e; 
+    font-weight: 10;
+}

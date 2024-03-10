@@ -1,0 +1,139 @@
+.darkBlue {
+    background-color: #04384c
+}
+.equipmentName {
+    font-size: 1.5rem
+}
+.equipmentNameSmall {
+    font-size: 0.5rem
+}
+.equipmentNameMedium {
+    font-size: 1.0rem
+}
+.assetHealthValueCardlabel {
+    font-size : 1.0rem;
+    line-height: 0.8rem;
+    font-weight: normal;
+}
+.assetHealthcardBG {
+    background-color : #0a303d;
+}
+
+.assetHealthvalue{
+    font-weight: 800;
+    font-size:1.5rem;
+    color : #05f5ff;
+    text-align: center;
+    flex-grow: 1;
+    width : 100%;
+    padding : 5px 10px 0 10px;
+}
+.assetHealthvalue2{
+    font-weight: 500;
+    font-size:1.5rem;
+    color : #05f5ff;
+    text-align: center;
+    flex-grow: 1;
+    width : 100%;
+    padding-top : 1rem;
+    padding-bottom : 1rem;
+}
+
+.legendColor {
+    width : 30px;
+    margin-right: 7px;
+    margin-left: 10px;
+    height : 20%;
+    align-self: center;
+}
+
+.legendColorLabel {
+    padding-right: 10px;
+    display : flex;
+    font-size: 0.9rem;
+}
+
+
+.legendTitle {
+    padding-right: 10px;
+    display : flex;
+    font-size: 0.8rem;
+    white-space: nowrap;
+}
+
+
+.verticalLabelLeft {
+    -webkit-transform:rotate(180deg);
+    -moz-transform:rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform:rotate(180deg);
+    transform: rotate(180deg);
+    writing-mode: vertical-lr;
+    white-space: nowrap;
+    align-self: center;
+}
+.verticalLabelRight{
+    writing-mode: vertical-lr;
+    white-space: nowrap;
+    align-self: center;
+}
+
+@media (max-width: 1024px) { 
+    .equipmentName {
+        font-size: 1.3rem
+    }
+    .equipmentNameSmall {
+        font-size: 0.8rem
+    }
+    .assetHealthValueCardlabel {
+        font-size : 0.8rem;
+        line-height: 0.8rem;
+    }
+    .assetHealthvalueBox {
+        background-color : #0A182B;
+        border : 2px solid #045473;
+        display : flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding : 5px 0px 0px 5px;
+    }
+
+    .assetHealthvalue2{
+        font-weight: 800;
+        font-size:1rem;
+        color : #05f5ff;
+        text-align: center;
+        flex-grow: 1;
+        width : 100%;
+        padding : 5px 10px 0 10px;
+    }
+
+    .legendTitle {
+        padding-right: 10px;
+        display : flex;
+        font-size: 0.7rem;
+        white-space: nowrap;
+    }
+
+    .legendColorLabel {
+        padding-right: 10px;
+        display : flex;
+        font-size: 0.7rem;
+    }
+    
+}
+
+@media (max-width: 767px) { 
+    .equipmentName {
+        font-size: 1rem
+    }
+    .equipmentNameSmall {
+        font-size: 0.8rem
+    }
+    .legendColor {
+        width : 20px;
+        margin-right: 10px;
+        height : 50%;
+        align-self: center;
+    }
+}

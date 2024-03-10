@@ -1,0 +1,75 @@
+.whiteLabel .MuiFormLabel-root {
+    color : #04588e;
+}
+.whiteLabel .MuiInputBase-input {
+    color : #04588e;
+}
+.whiteLabel .MuiOutlinedInput-notchedOutline{
+    border-color : #04588e;
+}
+.whiteLabel .MuiFormLabel-root:hover {
+    color : #04588e;
+}
+.whiteLabel .MuiFormLabel-root.Mui-focused {
+    color : #04588e;
+}
+.whiteLabel .MuiInputBase-input:hover{
+    color : #04588e;
+}
+.whiteLabel .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline{
+    border-color : #04588e;
+}
+
+.scrollable::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+.scrollable::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 2px grey; 
+    border-radius: 10px;
+}
+
+/* Handle */
+.scrollable::-webkit-scrollbar-thumb {
+    background: rgb(7, 7, 7); 
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+.scrollable::-webkit-scrollbar-thumb:hover {
+    background: #009eb3; 
+}
+/* .taglist{
+    border : 1px solid #f6f6f6; 
+    background-color : white;
+    width: 70%;
+} */
+.taglist > .MuiTypography-body1 {
+    font-size: 0.8rem;
+    color: #04588e;
+}
+
+.trendingPageHeaderBase {
+    padding-top: 25px;
+    /* margin-bottom: 25px;  */
+    color: #04588e; 
+    /* padding-bottom: 15px; */
+}
+.trendingPageHeaderBackground{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+.trendingPageHeading {
+    color: rgb(4, 88, 142);
+    font-size: 1.2rem;
+    font-weight: 900;
+    text-align: center;
+    display: flex;
+    align-self: center;
+    margin: 0px;
+    padding: 0px;
+    line-height: normal;
+}

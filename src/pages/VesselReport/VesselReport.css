@@ -1,0 +1,53 @@
+.KSTBackground{
+    height: 100%;
+    width:  100vw;
+}
+
+.HistoryHeader {
+    background-color: #04588e;
+    color: #fff;
+    border-bottom: 3px solid #04588e;
+}
+
+.HistoryCells {
+    background-color: #8e91a4;
+}
+.HistoryCells>span {
+    font-size: 1.2rem;
+}
+.HistoryCells:hover {
+    cursor: pointer;
+}
+.cursorPointer{
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1023px) {
+    .HistoryCells>span {
+        font-size: 0.8rem;
+    }
+}
+
+.LineHeading {
+    width: 100%;
+    text-align: center;
+    border-bottom: 3px solid #067FAA;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+}
+.LineHeading span {
+    padding: 0 10px;
+    font-size: 1.3em;
+}
+
+.VesselReportEditButton{
+    height: 140px;
+    margin: 5px; 
+    border-radius: 15px
+}
+
+@media only screen and (min-width: 500px) {
+    .VesselReportEditButton {
+        width: 140px;
+    }
+}

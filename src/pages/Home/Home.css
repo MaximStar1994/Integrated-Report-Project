@@ -1,0 +1,121 @@
+.whiteHeading1 {
+    color : white;
+    font-size : 2rem;
+    font-weight : 600;
+    text-align : left;
+    padding : 10px 0
+}
+.whiteHeading2 {
+    color : white;
+    font-size : 1.2rem;
+    font-weight : 600;
+    text-align : left;
+}
+.whiteHeading3 {
+    color : white;
+    font-size : 1.2rem;
+    font-weight : 600;
+    text-align : center;
+    padding: 20px;
+}
+.blueHeading1{
+    color : #0b8dbe;
+    font-size : 1.5rem;
+    font-weight : 600;
+}
+.blueHeading2{
+    color : #0b8dbe;
+    font-size : 0.8rem;
+    padding: 0px 0px 5px 0px;
+    font-weight : 600;
+}
+.blueHeading3{
+    color : #0b8dbe;
+    font-size : 0.8rem;
+    font-weight : 600;
+}
+.blueHeading4{
+    color : #0b8dbe;
+    font-size : 0.7rem;
+    font-weight : 600;
+}
+.blueHeading5{
+    color : #0b8dbe;
+    font-size : 1.2rem;
+    font-weight : 600;
+    padding-top: 15px;
+}
+.lightBlueValue{
+    color : #05f5ff;
+    font-size: 1rem;
+    font-weight: 800;
+}
+.blueSubHeading {
+    color : #0b8dbe;
+    font-size : medium;
+    font-weight : 300;
+}
+.blueSubHeading2 {
+    color : #0b8dbe;
+    font-size : 0.8rem;
+    font-weight : 100;
+}
+.blueSubHeading3 {
+    color : #0b8dbe;
+    font-size : 1rem;
+    font-weight : 500;
+}
+.blueSubHeading4 {
+    color : #0b8dbe;
+    font-size : 1rem;
+    font-weight : 400;
+}
+.whiteSubHeading{
+    color : white;
+    font-size : 1.2rem;
+    font-weight : 600;
+}
+.whiteSubHeading1{
+    color : white;
+    font-size : 1rem;
+    font-weight : 500;
+}
+.whiteSubHeading2{
+    color : white;
+    font-size : 0.8rem;
+    font-weight : 500;
+}
+.whiteSubHeading3{
+    color : white;
+    font-size : 0.5rem;
+    font-weight : 500;
+}
+
+
+@media (max-width: 1024px) { 
+.blueHeading2{
+    color : #0b8dbe;
+    font-size : 0.8rem;
+    padding: 0px 0px 0px 0px;
+    font-weight : 600;
+}
+.blueSubHeading2 {
+    color : #0b8dbe;
+    font-size : 0.7rem;
+    font-weight : 300;
+}
+.blueHeading5{
+    color : #0b8dbe;
+    font-size : 0.9rem;
+    font-weight : 600;
+    padding-top : 10px;
+}
+.whiteHeading3 {
+    color : white;
+    font-size : 1.2rem;
+    font-weight : 600;
+    text-align : center;
+    padding: 5px;
+}
+
+}

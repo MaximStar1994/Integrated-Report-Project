@@ -1,0 +1,15 @@
+.bg-dark-f-blue{
+    background-color: #04384c;
+    height: 3vh;
+    line-height: 3vh;
+    text-align:center;
+    font-size: larger;
+    color: #0b8dbe;
+}
+
+.fs{
+    font-size: small;
+    color: #0b8dbe;
+    text-align: left;
+
+}

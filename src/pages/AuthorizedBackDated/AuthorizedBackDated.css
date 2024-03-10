@@ -1,0 +1,103 @@
+.RootComponent {
+  background-color: #e6e6e6;
+  min-height: 100vh;
+}
+
+.AuthorizedControlAppHeaderBackground {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.AuthorizedControlAppHeaderText {
+  color: rgb(4, 88, 142);
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+
+.AuthorizedControlAppForm {
+  background-color: #eeeff5;
+  color: #04588e;
+  padding: 15px;
+  margin-inline: 5px;
+}
+
+.AuthorizedControlAppSelectionFillableBox {
+  border: 1px solid #ced4da;
+  color: #04588e;
+  font-weight: 10;
+}
+
+.AuthorizedControlAppSelectionBox .MuiInput-root {
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.AuthorizedControlAppSelectionBox
+  > .MuiInput-root
+  > .MuiInput-underline:before
+  .MuiInput-underline:after {
+  border-bottom: 0px !important;
+}
+
+.AuthorizedControlAppSelectionBox > .MuiInput-root > .MuiSelect-select:focus {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.AuthorizedControlAppSelectionBox > .MuiInput-root > .MuiSelect-icon {
+  color: #fcf404;
+  background-color: #04588e;
+  border-radius: 3px;
+  margin-right: 12px;
+  margin-top: 3px;
+  font-size: 19px;
+}
+
+.AuthorizedControlAppTimePicker .MuiFormControl-root {
+  width: 100%;
+  height: calc(1.5em + .75rem + 2px);
+  padding: .375rem .75rem;
+  line-height: 1.5;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+.AuthorizedControlAppTimePicker .MuiFormControl-root .MuiInputBase-input {
+  color: #04588e;
+}
+
+.MuiDialog-container .MuiPickersToolbar-toolbar,
+.MuiDialog-container .MuiPickersClock-pin,
+.MuiDialog-container .MuiPickersClockPointer-pointer {
+background-color: #04588e;
+}
+
+.MuiDialog-container .MuiPickersClockPointer-pointer .MuiPickersClockPointer-thumb {
+  border-color: #04588e;
+  background-color: #04588e;
+}
+
+.MuiDialog-container .MuiDialogActions-root button {
+  color: #04588e;
+}
+
+.AuthorizedControlAppTimePicker .MuiFormControl-root .MuiInput-underline::before,
+::after {
+  border-bottom: 0px !important;
+}
+
+.AuthorizedControlAppTable {
+  overflow-y: scroll;
+  height: 70vh;
+  padding-top: 15px;
+}

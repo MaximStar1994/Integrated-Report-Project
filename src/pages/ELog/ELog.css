@@ -1,0 +1,164 @@
+.ELogInputBox{
+    border: 1px solid #055b7c!important;
+    color: #00bbff!important;
+    background-color: rgba(0,0,0,0)!important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.ELogInputBox:disabled{
+    background-color: #04384C!important;
+
+}
+.ELogInputBoxAutoFill{
+    border: 1px solid #0565ff!important;
+    color: #00bbff!important;
+    background-color: #04384C!important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.ELogInputBoxAutoFill:disabled{
+    background-color: #04384C!important;
+
+}
+.ELogInputBoxError{
+    border: 1px solid #FF6565;
+    color: #067FAA;
+    /* background-color: #04384C; */
+    background-color: rgba(0,0,0,0);
+}
+.ELogErrorMessage{
+    color: #FF6565;
+    /* padding: .5em .2em; */
+    height: 1em;
+    position: absolute;
+    font-size: .8em;
+    background-color: '#fff';
+}
+
+.ELogEditTabs{
+    border: 0px;
+    color: #fff;
+}
+.ELogEditTabs .nav-link{
+    color: #fff!important;
+    flex-grow: 1;
+    text-align: center;
+}
+.ELogEditTabs .nav-item.active{
+    background-color: #032a39;
+    color: #067FAA!important;
+    border: 0px;
+    border-radius: 0px;
+    flex-grow: 1;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.ELogLineHeading {
+    width: 100%;
+    text-align: center;
+    border-bottom: 3px solid #067FAA;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+}
+.ELogLineHeading span {
+    background: #04384C;
+    padding: 0 10px;
+    font-size: 1.3em;
+}
+
+.CentralGridPaddingOnXL{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+@media only screen and (min-width: 1200px) {
+    .CentralGridPaddingOnXL{
+        padding-left: 7px;
+        padding-right: 7px;
+    }
+}
+
+.ELogAutofillActiveDot{
+    display: inline-flex;
+    width: 0px; 
+    border: 7px solid #66ff00; 
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.ELogAutofillInActiveDot{
+    display: inline-flex;
+    width: 0px; 
+    border: 7px solid #067FAA; 
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.cursorPointer:hover{
+    cursor: pointer;
+}
+
+.TimeIntervals {
+    background-color: #032A39;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.ButtonTextTimeInterval {
+    margin-right: 10px;
+}
+
+.EditButtonELogTable {
+    background-color: rgba(5, 100, 255, 100);
+    color: white;
+}
+
+.EditButtonTextELogTable {
+    padding-left: 10px; 
+    padding-right: 10px;
+    color: white;
+}
+
+.ReportsTable {
+    background-color: #032A39;
+    border-bottom: 3px solid #067FAA;
+}
+.ReportsTable>span {
+    font-size: 1.2rem;
+}
+.ReportsTable:hover {
+    cursor: pointer;
+}
+@media only screen and (max-width: 1023px) {
+    .ButtonTextTimeInterval {
+        margin-right: 0px;
+    }
+    
+    .EditButtonELogTable {
+        background-color: rgba(5, 100, 255, 100);
+        color: white;
+        font-size: 12px;
+        padding: 2px;
+    }
+    
+    .EditButtonTextELogTable {
+        padding-left: 5px; 
+        padding-right: 5px;
+        font-size: 12px;
+        color: white;
+    }
+
+    .ReportsTable>span {
+        font-size: 0.8rem;
+    }
+
+}
+
+.ELogNavLink>a:hover{
+    color: #067FAA;
+}
+
+.ELogNavLink{
+    font-size: 1rem;
+}

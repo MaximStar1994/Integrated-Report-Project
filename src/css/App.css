@@ -1,0 +1,159 @@
+/* width */
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: transparent; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:horizontal:hover {
+  background: transparent; 
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.inverted {
+  filter: invert(80%);
+}
+
+.img-responsive {
+  max-width: 100%;
+  height : auto;
+}
+
+.img-height-responsive {
+  max-height: 100%;
+  width: auto;
+}
+
+.marginTopBtm10{
+  margin-top : 10px;
+  margin-bottom : 10px;
+}
+.padTopBtm10{
+  padding-top : 10px;
+  padding-bottom : 10px;
+}
+.padTopBtm30{
+  padding-top : 30px;
+  padding-bottom : 30px;
+}
+
+.narrowRow{
+  margin-left : -5px;
+  margin-right : -5px
+}
+.padLR5 {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.padLR10 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.pad10 {
+  padding : 10px;
+}
+.pad15 {
+  padding : 15px;
+}
+.NoTopBtmMargin {
+  margin-top: 0;
+  margin-bottom: 0
+}
+.headerLogo:hover {
+  cursor: pointer;
+}
+
+.inlineBlk{
+  display: inline-block;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.clickable:hover {
+  cursor: pointer;
+}
+.emphasisClickable:hover {
+  filter: brightness(0.8)
+}
+
+.d-flex {
+  display : flex;
+}
+
+.flex-fill {
+  flex: 1 1 auto;
+}
+
+.background {
+  background-color: #0a182a;
+}
+.overlay {
+  position: absolute;
+  width : 100%;
+  height : 100%;
+  top: 0;
+  left : 0;
+}
+.verticalCenter{
+  display : flex; 
+  height : 100%;
+  align-items : center;
+}
+
+
+
+/* html, body {font-family: "Franklin Gothic", "Franklin Gothic Medium", Arial, sans-serif;  font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; font-weight:400;background-color: #032A39; font-size : 14px;} */
+html, body.materialdesign {background: #0a182a}
+img {max-width:100%;height:auto}
+.clear{clear:both}
+
+.clickable:hover{
+  cursor :pointer
+}
+
+.container-fluid.containerBGcolor {
+    background-color: #032A39;
+}
+
+.containerBGcolor {
+  background-color: #032A39;
+}

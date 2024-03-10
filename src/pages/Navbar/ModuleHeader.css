@@ -1,0 +1,48 @@
+.ModuleNavBar {
+    background-color: rgb(4, 91, 123);
+}
+.ModuleContainer {
+    transform: skew(-40deg);
+    margin : 0 5px;
+}   
+.ModuleContainer:hover {
+    cursor: pointer;
+}
+.ModuleContainer.disabled:hover {
+    cursor: not-allowed;
+}
+.highlightModule {
+    background-color: rgb(10, 24, 42,1);
+}
+.highlightModule:hover {
+    background-color: rgb(10, 24, 42,0.5);
+}
+.highlightModule.disabled:hover {
+    background-color: rgb(10, 24, 42,1);
+}
+.ModuleSelected {
+    background-color: rgb(10, 24, 42,0.5);
+    margin-right: 0;
+}
+.ModuleContent {
+    transform: skew(40deg);
+    display : flex;
+    text-align: left;
+}
+.moduleNavbarTitle {
+    padding : 5px;
+    color : white;
+}
+.ModuleContainer.disabled .moduleNavbarTitle {
+    color : grey;
+}
+
+.moduleNavbarTitle.disabled {
+    color : grey;
+}
+
+@media (min-width: 1500px) {
+    .moduleNavbarTitle {
+        padding : 15px;
+    }
+}

@@ -1,0 +1,14 @@
+.nav-tabs .nav-link {
+    color : #0977a2
+}
+.vfdvalue{
+    font-size: 1.5rem;
+    color : #05f5ff;
+}
+.vfdlabel{
+    padding-bottom: 5px;
+}
+.vfdunit{
+    padding-top: 5px;
+    font-size: 0.8rem;
+}

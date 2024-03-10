@@ -1,0 +1,16 @@
+.mainAssetTitle {
+    color: #0977a2;
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-align: left;
+}
+
+@media (max-width: 1024px) {
+    .mainAssetTitle { 
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: -10px;
+    }
+}
+
+

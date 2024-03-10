@@ -1,0 +1,70 @@
+  .progress {
+    background-color: #38d100;
+    border: 1px solid #fff;
+    border-radius: none;
+    margin-top: 1em;
+  }
+  
+  .progress.vertical {
+    position: relative;
+    width: 4vw;
+    height: 40vh;
+    display: inline-table;
+    
+  }
+  
+  .progress {
+    
+    overflow: hidden;
+    background-color: #38d100;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  .progress.vertical > .progress-bar {
+    width: 100% !important;
+    position: absolute;
+    bottom: 0;
+    
+  }
+  
+  .progress-bar {
+    background-color: #2196f3;
+  }
+  
+  .progress-bar {
+    
+    width: 0;
+    height: 100%;
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+    background-color: #3b3b3b;
+    -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+    -webkit-transition: width 0.6s ease;
+    -o-transition: width 0.6s ease;
+    transition: width 0.6s ease;
+  }
+  
+
+  @media only screen and (max-width: 768px) {
+    .progress.vertical {
+      position: relative;
+      width: 10vw;
+      height: 40vh;
+      display: inline-table;
+      
+    }
+  }
+
+  @media only screen and (max-width: 1370px) {
+    .progress.vertical {
+      position: relative;
+      width: 5vw;
+      height: 40vh;
+      display: inline-table;
+      
+    }
+  }

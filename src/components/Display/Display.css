@@ -1,0 +1,122 @@
+.LED-1k-big{
+    background-color: transparent;
+    color:#fff;
+    font-size: 1.2vh;
+    font-weight: 500;
+    height: 3.5vh;
+}
+
+.LED-1v-big{
+    background-color: #c0c0c0;
+    font-size: 1.8vh;
+    color:BLACK;
+    font-weight: 500;
+    height: 2vh;
+}
+
+.LED-1u-big{
+    background-color: #c0c0c0;
+    font-size: 0.8vh;
+    color:BLACK;
+    font-weight: 400;
+    height: 2vh;
+}
+
+.LED-1k-small{
+    background-color: transparent;
+    color:#fff;
+    font-size: 0.8vh;
+    font-weight: 500;
+    height: 2vh;
+}
+
+.LED-1v-small{
+    background-color: #c0c0c0;
+    font-size: 1.5vh;
+    color:BLACK;
+    font-weight: 500;
+    height: 2vh;
+}
+
+.LED-1u-small{
+    background-color: #c0c0c0;
+    font-size: 0.8vh;
+    color:BLACK;
+    font-weight: 400;
+    height: 2vh;
+}
+
+
+.LEDBGBlack-1k-big{
+    background-color: transparent;
+    color:#0977a2;
+    font-size: 1.2vh;
+    font-weight: 500;
+    height: 3.5vh;
+}
+
+.LEDBGBlack-1v-big{
+    background-color: black;
+    font-size: 1.8vh;
+    color:#0977a2;
+    font-weight: 500;
+    height: 2vh;
+    
+}
+
+.LEDBGBlack-1u-big{
+    background-color: black;
+    font-size: 1vh;
+    color:#0977a2;
+    font-weight: 400;
+    height: 2vh;
+}
+
+.LEDBGBlack-1k-small{
+    background-color: transparent;
+    color:#0977a2;
+    font-size: 0.8vh;
+    font-weight: 500;
+    height: 2vh;
+}
+
+.LEDBGBlack-1v-small{
+    background-color:black;
+    font-size: 1.5vh;
+    color:#0977a2;
+    font-weight: 500;
+    height: 2vh;
+}
+
+.LEDBGBlack-1u-small{
+    background-color: black;
+    font-size: 0.8vh;
+    color:#0977a2;
+    font-weight: 400;
+    height: 2vh;
+}
+
+.LEDBGBlack-1k-medium{
+    background-color: transparent;
+    color:#0977a2;
+    font-size: 1vh;
+    font-weight: 500;
+    height: 3.5vh;
+}
+
+.LEDBGBlack-1v-medium{
+    background-color: black;
+    font-size: 1.8vh;
+    color:#0977a2;
+    font-weight: 500;
+    height: 2vh;
+    
+}
+
+.LEDBGBlack-1u-medium{
+    background-color: black;
+    font-size: 0.8vh;
+    color:#0977a2;
+    font-weight: 400;
+    height: 2vh;
+}

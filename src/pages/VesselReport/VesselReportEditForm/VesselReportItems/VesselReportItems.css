@@ -1,0 +1,158 @@
+.VesselReportHeaderBase{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #04588e;
+    padding-bottom: 15px;
+}
+.VesselReportHeaderBackground{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+.VesselReportNote{
+    margin-right: auto;
+    font-size: 0.7rem;
+    font-weight: 900;
+    /* position: absolute; */
+}
+.VesselReportHeading {
+    font-size: 1.2rem;
+    font-weight: 900;
+    text-align: center;
+}
+.VesselReportSubheading{
+    padding-top: 10px;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 900;
+}
+
+
+.TimePicker .MuiFormControl-root {
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    line-height: 1.5;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.TimePicker .MuiFormControl-root .MuiInputBase-input{
+    color: #04588e;
+}
+
+.MuiDialog-container .MuiPickersToolbar-toolbar, .MuiDialog-container .MuiPickersClock-pin, .MuiDialog-container .MuiPickersClockPointer-pointer{
+    background-color: #04588e;
+}
+
+.MuiDialog-container .MuiPickersClockPointer-pointer .MuiPickersClockPointer-thumb{
+border-color: #04588e;
+background-color: #04588e;
+}
+
+.MuiDialog-container .MuiDialogActions-root  button{
+    color: #04588e;
+}
+
+.TimePicker .MuiFormControl-root .MuiInput-underline::before, ::after{
+    border-bottom: 0px!important;
+}
+
+@media (min-width : 920px) {
+    .VesselReportHeaderBase {
+        position: relative;
+    }
+    .VesselReportHeaderBackground{
+        position: absolute;
+    }
+    .VesselReportNote{
+        position: absolute;
+    }
+}
+.VesselReportAckInputBox{
+    border: 1px solid #707070!important;
+    color: #04588e!important;
+    background-color: white!important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.VesselReportAckInputBox:disabled{
+    background-color: #707070!important;
+
+}
+.VesselReportAckInputBoxAutoFill{
+    border: 1px solid #0565ff!important;
+    color: #04588e!important;
+    background-color: #707070!important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.VesselReportAckInputBoxAutoFill:disabled{
+    background-color: #707070!important;
+
+}
+.VesselReportAckInputBoxError{
+    border: 1px solid #FF6565;
+    color: #04588e;
+    background-color: rgba(0,0,0,0);
+}
+.VesselReportAckErrorMessage{
+    color: #FF6565;
+    height: 1em;
+    position: absolute;
+    font-size: .8em;
+    background-color: '#fff';
+}
+
+
+.VesselReportSelectionBox .MuiInput-root{
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    line-height: 1.5;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+
+}
+.VesselReportSelectionBox > .MuiInput-root > .MuiInput-underline:before .MuiInput-underline:after{
+    border-bottom: 0px!important;
+}
+
+.VesselReportSelectionBox > .MuiInput-root > .MuiSelect-select:focus{
+    background-color: rgba(0,0,0,0);
+}
+
+.VesselReportSelectionBox > .MuiInput-root > .MuiSelect-icon {
+    color: #fcf404;
+    background-color: #04588e;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+.Engines .nav-tabs {
+    border-bottom: 0px;
+}
+.Engines .nav-tabs a{
+    flex-grow: 1;
+    text-align: center;
+    color: #707070;
+}
+
+.Engines .nav-link.active{
+    background-color: #eeeff5;
+    border-color: #eeeff5;
+    color: black;
+}
+
+.Engines .tab-content {
+    background-color: #eeeff5;
+    padding-top: 5px;
+    overflow-y: scroll;
+    height: 75vh;
+}

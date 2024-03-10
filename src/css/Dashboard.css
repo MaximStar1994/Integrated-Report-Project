@@ -1,0 +1,101 @@
+.RigFloatImg{
+    padding : 15px 0;
+}
+
+.trackTableHeader > thead > tr > th {
+    position: sticky;
+    top: 0;
+    background-color: #04384c
+}
+.trackTableHeader > thead th {
+    box-shadow: 0 -1px #dee2e6, 0 1px #dee2e6;
+}
+.trackTableContent {
+    font-size: 9px;
+}
+.mainDatePicker > div > input {
+    font-size: 10px;
+    color : white;
+}
+.mainDatePicker > label {
+    font-size: 12px;
+    color : white;
+}
+.mainDatePicker {
+    margin-top : 0px !important;
+}
+.MuiButtonBase-root:focus {
+    outline: 0px;
+}
+.mainDatePicker > .MuiFormLabel-root.Mui-focused {
+    color : rgb(10, 24, 42);
+}
+.mainDatePicker > .MuiInput-underline:after {
+    border-bottom-color: rgb(10, 24, 42);
+}
+
+.EnvironmenConditionHeader {
+    font-size : 12px;
+    font-weight: normal;
+    color : rgb(11, 141, 190);
+    text-align: center;
+}
+
+.SelectedEnvironment {
+    border : solid;
+    border-width: 1px;
+    border-color: rgb(132,0,255);
+}
+
+.EnvironmentConditionVal{
+    color : white;
+    text-align: center;
+}
+
+.CurrDirectionEnvironmentLabel {
+    border : solid;
+    border-width: 1px;
+    border-color: #11a1a1;
+}
+
+.CardInnerContent{
+    font-size : 12px;
+    font-weight: normal;
+    color : rgb(11, 141, 190);
+    text-align : left;
+    padding-bottom: 10px;
+}
+
+.activeLiveFigure {
+    font-size: xx-large;
+    font-weight: bold;
+    color: #00ffff;
+}
+.videoplayer > div > div {
+    padding : 0 10px
+}
+@media only screen and (max-device-width: 768px) {
+    .semiCircleProgressBarContent {
+        margin-bottom: 10%;
+    }
+    .videoplayer {
+        margin-top : 10px;
+    }
+}
+@media (max-width: 1499px) and (min-width: 1200px) {
+    .semiCircleProgressBarContent {
+        margin-bottom: 0;
+    }
+    .activeLiveFigure {
+        font-size: 1.5em;
+        font-weight: bold;
+        color: #00ffff;
+    }
+}
+@media (min-width: 1500px) {
+    .activeLiveFigure {
+        font-size: 3em;
+        font-weight: bold;
+        color: #00ffff;
+    }
+}

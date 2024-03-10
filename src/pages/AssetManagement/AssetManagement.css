@@ -1,0 +1,24 @@
+.AssetStatusBar:hover {
+    background-color: #014a62 !important;
+}
+.assetName{
+    font-size: xx-small;
+}
+
+@media (max-width:1201px) {
+    .innerButtonLight {
+        width : 0px;
+        border-style: solid;
+        border-width: 3px;
+        border-radius: 50%;
+        margin : auto
+    }
+    
+}
+
+@media (max-width:767px) {
+    .assetName{
+        font-size: 0.1rem;
+        line-height: 0.75rem;
+    }
+}

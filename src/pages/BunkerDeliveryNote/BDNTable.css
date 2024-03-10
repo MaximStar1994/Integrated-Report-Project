@@ -1,0 +1,26 @@
+.BDNTableCells {
+    color: #067faa;
+    background-color: #04384C; 
+    font-size: 1.2em;
+    border-bottom: 5px solid #067FAA;
+}
+
+.BDNPagination>.pagination>li>a {
+    background-color: #04384C;
+    border: 0px;
+    margin: 2px;
+    font-size: 1em;
+    color: white;
+}
+
+.BDNPagination>.pagination > li > span,
+.BDNPagination>.pagination > li > a:hover,
+.BDNPagination>.pagination > li > span:hover,
+.BDNPagination>.pagination > .active > a,
+.BDNPagination>.pagination > .active> .page-link {
+    background-color: #04384C!important;
+    border: 0px;
+    margin: 2px;
+    font-size: 1em;
+    color: #067FAA;
+}

@@ -1,0 +1,145 @@
+.InputBox {
+    border: 1px solid #055b7c!important;
+    color: #00bbff!important;
+    background-color: rgba(0,0,0,0)!important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.InputBoxVolume {
+    border: 1px solid #0565ff!important;
+    color: #00bbff!important;
+    background-color: #04384C!important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+.InputBox:disabled{
+    background-color: #04384C!important;
+    
+}
+
+.BDNInputBoxAutoFill{
+    border: 1px solid #0565ff!important;
+    color: #00bbff!important;
+    background-color: rgba(0,0,0,0)!important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #04384C!important;
+}
+.BDNInputBoxAutoFill:disabled{
+    background-color: #04384C!important;
+    
+}
+
+.InputBoxError{
+    border: 1px solid #FF6565;
+    color: #00bbff;
+    /* background-color: #04384C; */
+    background-color: rgba(0,0,0,0)!important;
+}
+.InputBoxErrorVolume{
+    text-align: center;
+    border: 1px solid #FF6565;
+    color: #00bbff;
+    /* background-color: #04384C; */
+    background-color: rgba(0,0,0,0)!important;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+.ErrorMessage{
+    color: #FF6565;
+    /* padding: .5em .2em; */
+    height: 1em;
+    /* position: absolute; */
+    font-size: .8em;
+    background-color: rgba(0,0,0,0);
+}
+
+.VerticalTimelineEvents{
+    align-self: center;
+    height : 100%;
+    display : flex;
+}
+.TimelineLine {
+    position: absolute;
+    width : 5%;
+    left : 47.5%;
+    top : 0; bottom : 0;
+    background-color: #067FAA;
+}
+.timelineContainer:first-child .TimelineLine {
+    top : 50%;
+}
+.timelineContainer:last-child .TimelineLine  {
+    bottom : 70%;
+}
+.timelineContainer2:nth-child(2) .TimelineLine {
+    top : 50%;
+}
+.timelineContainer2:last-child .TimelineLine  {
+    bottom : 50%;
+}
+
+.VerticalTimelineEventsDotFirst{
+    color: #067FAA;
+    font-size: 20px;
+
+}
+.VerticalTimelineEventsDot{
+    display: block;
+    width: 0px; border: 5px solid #067FAA; border-radius: 50%;
+}
+
+.VerticalTimelineEventsDotLast{
+    display: block;
+    color: #067FAA;
+    font-size: 20px;
+
+}
+
+.VerticalTimelineLNGProperties{
+    display: block;
+    position: relative; 
+    width: 0px;
+    border: 1px solid #067FAA;
+    margin-right: 15px;
+}
+
+.VerticalTimelineLNGPropertiesDot{
+    display: block;
+    position: absolute;
+    width: 0px; border: 5px solid #067FAA; border-radius: 50%; margin-left: -5px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .TopButton{
+        display: none;
+    }
+    .BottomButton{
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .BottomButton{
+        display: none;
+    }
+}
+
+.BDNAutofillActiveDot{
+    display: inline-flex;
+    width: 0px; 
+    border: 7px solid #66ff00; 
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.BDNAutofillInActiveDot{
+    display: inline-flex;
+    width: 0px; 
+    border: 7px solid #067FAA; 
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 20px;
+}

@@ -1,0 +1,9 @@
+.StatusLightContainer {
+    background-color : #04445d;
+    padding : 5px;
+}
+.StatusLightContainer .statusLight .innerButtonLight {
+    float : none;
+    margin: 0px auto;
+    border-width: 5px;
+}

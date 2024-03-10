@@ -1,0 +1,45 @@
+.cardBG {
+    background-color : #04384c;
+}
+.MainCardBG{
+    background-color: #04455f;
+}
+.valueOuterCard{
+    background-color: #032a39;
+}
+.valueCard{
+    padding : 10px;
+}
+.valueBox {
+    background-color: #032a39;
+    border : 2px solid #045473;
+    display : flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.label{
+    font-size : 0.75rem
+}
+.value{
+    font-weight: 800;
+    font-size:1.5rem;
+    color : #05f5ff;
+    text-align: center;
+    flex-grow: 1;
+    width : 100%;
+    padding : 10px 10px 0 10px;
+}
+.unit {
+    font-size: 0.8rem;
+    font-weight: bold;
+    width : 100%;
+    text-align: right;
+}
+@media (max-width: 767px) {
+    .value{
+        padding : 5px 5px 0 5px;
+    }
+    .valueCard{
+        padding : 5px;
+    }
+}

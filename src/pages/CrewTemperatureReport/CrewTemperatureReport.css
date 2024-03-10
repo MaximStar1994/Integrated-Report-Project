@@ -1,0 +1,96 @@
+.Disinfection{
+    background-color: #e6e6e6;
+    min-height: 100vh;
+}
+
+.CrewTempCard{
+    background-color: #eeeff5;
+    min-height: 100vh;
+    color: #04588e;
+    border: 15px solid #e6e6e6;
+    border-top: 0;
+}
+.CrewDetail{
+    display: flex;
+    margin-top: 30px;
+}
+.CrewNameHeading{
+    display: flex;
+    width: 50%;
+    color: #04588E;
+    opacity: 1;
+    justify-content: center;
+    margin-top: 20px;
+    font-weight: 900;
+}
+.CrewName{
+    display: flex;
+    width: 50%;
+    border-radius: 20px;
+    color: #04588E;
+    opacity: 1;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.CrewNameNormal{
+    border: 3px solid #fceed5;
+    background-color: #e6e6e6;
+}
+.CrewNameActive{
+    border: 3px solid #25B502;
+    background-color: #25B502;
+    color: #fff;
+}
+.CrewName>Button{
+    width: 100%;
+}
+.Indicators{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+.NoIndicator{
+    border: 1rem solid rgba(255, 255, 255, 0%);
+    border-radius: 50%;
+    height: 0;
+}
+.Indicator1{
+    border: 1rem solid #25b702;
+    border-radius: 50%;
+    height: 0;
+}
+
+.Temperatures{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.TempFormElement{
+    display: flex;
+    margin-top: 15px;
+}
+
+.crewTemperatureHeaderBase {
+    margin-top: 25px;
+    margin-bottom: 25px; 
+    color: #04588e; 
+    padding-bottom: 15px;
+}
+
+.crewTemperatureHeaderBackground{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+@media (min-width : 1024px) {
+    .crewTemperatureHeaderBase {
+        position: relative;
+    }
+    .crewTemperatureHeaderBackground{
+        position: absolute;
+    }
+}

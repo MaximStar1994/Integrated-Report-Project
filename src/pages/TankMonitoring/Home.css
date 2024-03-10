@@ -1,0 +1,56 @@
+.xheader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0977a2;
+    font-size: 2rem;
+    margin: 2% 0 2% 0;
+  }
+
+  .subheader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #b9b7b7;
+    font-size: 1.5rem;
+  }
+
+  .gaugeStyle{
+      padding: 10%;
+  }
+
+  .pads{
+    padding: 1% 6% 2% 6%
+  }
+
+
+.gaugeLabel{
+  color:#0b8dbe;
+  font-size: 1em;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  padding: 5px;
+  font-weight: 900;
+}
+
+.cardLabel{
+  color:#0b8dbe;
+  font-weight: 700;
+  font-size: 1em;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  padding: 5px;
+}
+
+.cardLabelGrey{
+  color:#f9f9f9;
+  font-weight: 700;
+  font-size: 1em;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  padding-bottom: 5px;
+}
+

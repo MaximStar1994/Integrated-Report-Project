@@ -1,0 +1,41 @@
+.ShipGeneralInfoEditTabs{
+    border: 0px;
+    color: #fff;
+    margin: 0px
+}
+.ShipGeneralInfoEditTabs .nav-link{
+    color: #fff!important;
+    flex-grow: 1;
+    text-align: center;
+}
+.ShipGeneralInfoEditTabs .nav-item.active{
+    background-color: #032a39;
+    color: #067FAA!important;
+    border: 0px;
+    border-radius: 0px;
+    flex-grow: 1;
+    text-align: center;
+    font-weight: bolder;
+}
+.ShipGeneralInfoNavLink>a:hover{
+    color: #067FAA;
+}
+
+.ShipGeneralInfoNavLink{
+    font-size: 1rem;
+}
+
+.ShipGeneralLogInput input {
+    color : #00bbff;
+    padding : 1rem;
+    border : 0px
+}
+.ShipGeneralLogInput input:hover {
+    border : 0px
+}
+.ShipGeneralLogInput input:active {
+    border : 1px solid #055b7c;
+}
+.ShipGeneralLogInput .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+    border-color : rgba(0, 0, 0, 0.23)
+}

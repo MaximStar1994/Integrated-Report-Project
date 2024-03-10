@@ -1,0 +1,72 @@
+.AssetStaticDetailsHeader{
+    background-color: #032a39;
+    color: #057eac;
+    font-size : 14px;
+    text-align: center;
+
+    height: 25px;
+    padding: 3px;
+    border-left: 3px solid #0a182a;
+    border-right: 3px solid #0a182a;
+    border-top: 3px solid #0a182a;
+}
+.mainAssetVibrationTitle {
+    background-color: #0a182a;
+    color: white;
+    font-size : 16px;
+    text-align: center;
+
+    padding: 6px;
+    font-weight: 100;
+}
+.mainAssetVibrationTitle:hover {
+    cursor: pointer;
+}
+.equipmentStaticDetailsHead{
+    color: #057eac;
+    font-size : 16px;
+    text-align: center;
+}
+.equipmentStaticDetailLabel{
+    text-align: right;
+}
+.equipmentStaticDetailCard {
+    background-color : #04445d;
+}
+.equipmentStaticDetailContentCard{
+    background-color : #04445d;
+    padding-top : 2px;
+    padding-right : 0px;
+    color: #057eac;
+    font-size : 0.75rem;
+    
+}
+
+.equipmentStaticDetailCardBtm {
+    padding-bottom: 10px;
+}
+
+.vibrationRealTimeMonitoringLabel {
+    font-weight: bolder;
+    font-size: 0.8rem;
+    text-align: center
+}
+
+.vibrationRealTimeMonitoringValue {
+    text-align: center
+}
+
+
+.redArrowVib .img-responsive {
+    padding-right: 7px;
+    }
+
+
+@media screen and (max-width: 1024px) {
+
+  }
+
+
+  @media screen and (max-width: 768px) {
+
+}

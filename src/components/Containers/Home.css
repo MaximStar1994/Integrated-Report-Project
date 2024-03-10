@@ -1,0 +1,10 @@
+.cd {
+    flex-direction:  'row';
+    justify-content: 'space-between';
+    margin: auto;
+    width: 85vw;
+    height: 100vh;
+    background-color: #044057;   
+  }
+
+

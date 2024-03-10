@@ -1,0 +1,25 @@
+.value {
+    font-size: 1.0rem;
+}
+
+.assetCard .value{
+    padding : 0;
+}
+.assetCard{
+    font-size : 0.8rem;
+}
+
+.svgtext{
+    font-size: 0.5rem;
+    fill : #0977a2
+}
+
+@media (max-width: 768px) { 
+    .assetCard{
+        font-size : 0.6rem;
+    }
+    .value {
+        font-size: 0.8rem;
+    }
+}
+

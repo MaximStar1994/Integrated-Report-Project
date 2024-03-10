@@ -1,0 +1,51 @@
+.VesselReportTabs{
+    border: 0px;
+    color: #fff;
+    min-height: 100vh;
+    background-color: #eeeff5;
+    padding: 1rem 0rem 1rem 0.5rem;
+}
+.VesselReportTabs .nav-link{
+    color: #707070!important;
+    flex-grow: 1;
+}
+.VesselReportTabs .nav-item .active{
+    background-color: #e6e6e6;
+    border: 0px;
+    border-radius: 0px;
+    flex-grow: 1;
+    font-weight: bolder;
+}
+.VesselReportContent{
+     background-color: #e6e6e6;
+}
+
+
+.VesselReportFillableBox {
+    border: 1px solid #ced4da;
+    color: #04588e; 
+    font-weight: 10;
+}
+.VesselReportFillableBoxOutOfRange {
+    border: 1px solid orange;
+    color: orange; 
+    font-weight: 10;
+}
+
+.VesselReportNonFillableBox {
+    border: 1px solid #ced4da;
+    color: #04588e; 
+    font-weight: 10;
+    background-color: #e6e6e6!important;
+}
+
+.VesselReportFillableErrorBox {
+    border: 1.5px solid #FF6565!important;
+}
+
+.VesselReportError{
+    color: #FF6565;
+    height: 1em;
+    font-size: .8em;
+    background-color: rgba(0,0,0,0);
+}

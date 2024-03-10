@@ -1,0 +1,201 @@
+.DeckLogInputBox{
+    border: 1px solid #055b7c!important;
+    color: #00bbff!important;
+    background-color: rgba(0,0,0,0)!important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.DeckLogInputBox:disabled{
+    background-color: #04384C!important;
+
+}
+.DeckLogInputBoxAutoFill{
+    border: 1px solid #0565ff!important;
+    color: #00bbff!important;
+    background-color: rgba(0,0,0,0)!important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.DeckLogInputBoxAutoFill:disabled{
+    background-color: #04384C!important;
+
+}
+.DeckLogInputBoxError{
+    border: 1px solid #FF6565;
+    color: #067FAA;
+    /* background-color: #04384C; */
+    background-color: rgba(0,0,0,0);
+}
+.DeckLogErrorMessage{
+    color: #FF6565;
+    /* padding: .5em .2em; */
+    height: 1em;
+    position: absolute;
+    font-size: .8em;
+    background-color: '#fff';
+}
+
+.DeckLogEditTabs{
+    border: 0px;
+    color: #fff;
+    margin: 0px
+}
+.DeckLogEditTabs .nav-link{
+    color: #fff!important;
+    flex-grow: 1;
+    text-align: center;
+}
+.DeckLogEditTabs .nav-item.active{
+    background-color: #032a39;
+    color: #067FAA!important;
+    border: 0px;
+    border-radius: 0px;
+    flex-grow: 1;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.DeckLogLineHeading {
+    width: 100%;
+    text-align: center;
+    border-bottom: 3px solid #067FAA;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+}
+.DeckLogLineHeading span {
+    background: #04384C;
+    padding: 0 10px;
+    font-size: 1.3em;
+}
+
+.DeckLogDetails{
+    /* background-color: #032A39; */
+    padding: 10px;
+    border-radius: 5px;
+    display: flexbox;
+}
+
+.CentralGridPaddingOnXL{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+@media only screen and (min-width: 1200px) {
+    .CentralGridPaddingOnXL{
+        padding-left: 7px;
+        padding-right: 7px;
+    }
+}
+
+.DeckLogAutofillActiveDot{
+    display: inline-flex;
+    width: 0px; 
+    border: 7px solid #66ff00; 
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.DeckLogAutofillInActiveDot{
+    display: inline-flex;
+    width: 0px; 
+    border: 7px solid #067FAA; 
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.cursorPointer:hover{
+    cursor: pointer;
+}
+
+.DeckLogTimeIntervals {
+    background-color: #032A39;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.ButtonTextTimeInterval {
+    margin-right: 10px;
+}
+
+.EditButtonDeckLogTable {
+    background-color: rgba(5, 100, 255, 100);
+    color: white;
+    font-size: 12px;
+    padding: 6px;
+}
+
+.EditButtonTextDeckLogTable {
+    padding-left: 5px; 
+    padding-right: 5px;
+    font-size: 12px;
+    color: white;
+}
+
+.ReportsTable {
+    background-color: #032A39;
+    border-bottom: 3px solid #067FAA;
+}
+.ReportsTable>span {
+    font-size: 1.2rem;
+}
+.ReportsTable:hover {
+    cursor: pointer;
+}
+@media only screen and (max-width: 1023px) {
+    .ButtonTextTimeInterval {
+        margin-right: 0px;
+    }
+    
+    .EditButtonDeckLogTable {
+        background-color: rgba(5, 100, 255, 100);
+        color: white;
+        font-size: 12px;
+        padding: 2px;
+    }
+    
+    .EditButtonTextDeckLogTable {
+        padding-left: 5px; 
+        padding-right: 5px;
+        font-size: 12px;
+        color: white;
+    }
+
+    .ReportsTable>span {
+        font-size: 0.8rem;
+    }
+
+}
+
+.DeckLogTable{
+    color: #067FAA;
+    border: 2px solid #055b7c;
+    text-align: center;
+}
+.DeckLogTable>thead>tr>th,.DeckLogTable td{
+    border: 2px solid #055b7c
+}
+
+.DeckLogTableInputBox{
+    border: 0px solid #055b7c!important;
+    color: #00bbff!important;
+    background-color: rgba(0,0,0,0)!important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* width: 100px */
+}
+
+.DeckLogTableTimeIntervalBox{
+    color: #00bbff!important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+    text-align: center;
+}
+
+.DeckLogNavLink>a:hover{
+    color: #067FAA;
+}
+
+.DeckLogNavLink{
+    font-size: 1rem;
+}
